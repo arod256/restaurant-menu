@@ -1,14 +1,36 @@
+body {
+    background-color: rgb(255, 190, 201);
+}
+
 #main {
     border-style: solid;
-    border-color: palevioletred;
-    border: 2px;
+    border-color: rgb(252, 115, 136);
+    border-width: 2px;
+}
+
+#sidebar {
+    border-style: solid;
+    border-color: rgb(252, 115, 136);
+    border-width: 2px;
 }
 
 .pink {
-    color: pink;
+    color: rgb(131, 78, 78);
 }
 
-#container {
+h1 {
+    font-style: oblique;
+    font-family: fantasy;
+    color: rgb(131, 78, 78);
+}
+
+h2 {
+    font-style: oblique;
+    font-family: fantasy;
+    color: rgb(131, 78, 78);
+}
+
+/* #container {
     display: flex;
 }
 
@@ -18,17 +40,18 @@
 
 #sidebar {
     width: 30%;
-}
+} */
 
 @media (min-width: 600px ) {
     #container {
         display: flex;
-    }
-    
+    } 
+
     #main {
-        width: 70%;
+        /* width: 70%; */
+        width: 50%;
     }
-    
+
     #sidebar {
         width: 30%;
     }
